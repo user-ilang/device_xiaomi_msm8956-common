@@ -34,6 +34,7 @@ persist.bt.enableAptXHD=true
 
 # Camera
 media.camera.ts.monotonic=1
+persist.camera.eis.enable=1
 persist.camera.HAL3.enabled=1
 camera.lowpower.record.enable=1
 
