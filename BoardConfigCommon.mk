@@ -114,14 +114,8 @@ BOARD_HARDWARE_CLASS += \
 BOARD_USES_QCNE := true
 
 # Dex
-ifeq ($(HOST_OS),linux)
-  ifneq ($(TARGET_BUILD_VARIANT),eng)
-    ifeq ($(WITH_DEXPREOPT),)
-      WITH_DEXPREOPT := true
-    endif
-  endif
-endif
-WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
+WITH_DEXPREOPT := false
+WITH_DEXPREOPT_BOOT_IMG_ONLY ?= false
 
 # Display
 BOARD_USES_ADRENO := true
