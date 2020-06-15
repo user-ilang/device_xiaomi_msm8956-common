@@ -122,6 +122,9 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,20
 telephony.lteOnCdmaDevice=1
 
+# Smooth scrolling
+ro.min.fling_velocity=60
+
 # Storage
 ro.sys.sdcardfs=true
 
