@@ -16,9 +16,9 @@
 <resources>
 
     <!-- Use Pixel's accent colors instead Lineage's teal-->
-    <color name="accent_material_700">#FF4285F4</color>
-    <color name="accent_material_light">#FF4285F4</color>
-    <color name="accent_material_dark">#FF4285F4</color>
-    <color name="accent_material_50">#FF4285F4</color>
+    <color name="accent_material_700">#4285F4</color>
+    <color name="accent_material_light">#4285F4</color>
+    <color name="accent_material_dark">#4285F4</color>
+    <color name="accent_material_50">#4285F4</color>
 
 </resources>
